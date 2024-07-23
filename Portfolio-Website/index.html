@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Mehad - Front-end Developer Portfolio | Lahore, Pakistan</title>
+    <meta name="description" content="Abdul Mehad, a passionate front-end web developer from Lahore, Pakistan. Specializing in React JS, JavaScript, HTML/CSS, C++, and Java. Explore my portfolio for fullstack and AI engineering projects.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f93bbd61bc.js" crossorigin="anonymous"></script>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abdulmehad.github.io/Portfolio-Website/">
+    <meta property="og:title" content="Abdul Mehad - Front-end Developer Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Abdul Mehad, a skilled front-end developer specializing in React JS, JavaScript, fullstack development, and AI engineering.">
+    <meta property="og:image" content="https://abdulmehad.github.io/Portfolio-Website/images/Profile_picture-removebg-preview_11zon-removebg-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x.com/abdul_meha74046?s=09">
+    <meta property="twitter:title" content="Abdul Mehad - Front-end Developer Portfolio">
+    <meta property="twitter:description" content="Explore the portfolio of Abdul Mehad, a skilled front-end developer specializing in React JS, JavaScript, fullstack development, and AI engineering.">
+    <meta property="twitter:image" content="https://abdulmehad.github.io/Portfolio-Website/images/Profile_picture-removebg-preview_11zon-removebg-preview.jpg">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Abdul Mehad",
+      "url": "https://abdulmehad.github.io/Portfolio-Website/",
+      "image": "https://abdulmehad.github.io/Portfolio-Website/images/Profile_picture-removebg-preview_11zon-removebg-preview.jpg",
+      "sameAs": [
+        "https://www.facebook.com/mian.ahsan.73744/",
+        "https://www.instagram.com/abdulmehad/?hl=en",
+        "https://www.linkedin.com/in/abdulmehad",
+        "https://github.com/Abdulmehad"
+      ],
+      "jobTitle": "Front-end Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Bookme.pk"
+      },
+      "knowsAbout": ["React JS", "JavaScript", "HTML/CSS", "C++", "Java", "Fullstack Development", "AI Engineering"]
+    }
+    </script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/img.png" class="logo" alt="Abdul Mehad Logo" width="150" height="50">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Front-end Developer</p>
+                <h1>
+                    Hello! I'm <span>Abdul Mehad</span>,<br>A Front-end Developer
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/Profile_picture-removebg-preview_11zon-removebg-preview.jpg" alt="Abdul Mehad - Front-end Developer" width="300" height="300" loading="lazy">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="subtitle">About Me</h2>
+                        <p>I am an ambitious and passionate Computer Science student with a strong foundation in web development and a keen interest in creating innovative digital solutions. Currently pursuing a Bachelor's degree at ELTE University Budapest, combines me with academic excellence with hands-on experience in cutting-edge technologies. My journey from Lahore, Pakistan to Budapest, Hungary showcases my adaptability and eagerness to embrace new challenges in the global tech landscape.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Proficient in creating responsive and interactive websites using HTML, CSS, and JavaScript</li>
+                                <li><span>React JS</span><br>Experienced in building dynamic user interfaces with React, including state management and component-based architecture</li>
+                                <li><span>Vue JS</span><br>Skilled in developing efficient and scalable applications using Vue.js, with expertise in Nuxt.js for server-side rendering</li>
+                                <li><span>JavaScript</span><br>Strong command of core JavaScript concepts and modern ES6+ features</li>
+                                <li><span>Java</span><br>Proficient in object-oriented programming and application development using Java</li>
+                                <li><span>C++</span><br>Capable of implementing efficient algorithms and data structures in C++</li>
+                                <li><span>Data Structures and Algorithms</span><br>Solid understanding and practical application of fundamental DSA concepts in problem-solving</li>
+                                <li><span>Version Control</span><br>Experienced in using Git and GitHub for collaborative development and code management</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June 2024 - Present</span><br>Tech Intern at <a style="color: aqua;" href="https://bookme.pk/">Bookme.pk</a>
+                                    <ul>
+                                        <li>Developing responsive Vue.js applications using Nuxt.js</li>
+                                        <li>Implementing intuitive UIs and seamless UX</li>
+                                        <li>Optimizing application performance with Nuxt.js features</li>
+                                    </ul>
+                                </li>
+                                <li><span>Feb 2024 - May 2024</span><br>React JS Intern at My Digital Pixel
+                                    <ul>
+                                        <li>Developed responsive web solutions using React</li>
+                                        <li>Collaborated on interactive web applications</li>
+                                        <li>Conducted thorough testing and debugging</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 - 2026 (Expected)</span><br>Bachelor of Computer Science - ELTE, University Budapest, Hungary</li>
+                                <li><span>2022 - 2024</span><br>Bachelor of Computer Science - Government College University, Lahore
+                                    <ul>
+                                        <li>Cumulative GPA: 3.32/4.0</li>
+                                        <li>Relevant Coursework: Data Analysis, OOP, DSA, Programming Fundamentals, Database Management</li>
+                                    </ul>
+                                </li>
+                                <li><span>2020 - 2022</span><br>Intermediate - Government Islamia College Civil Lines, Lahore</li>
+                                <li><span>2018 - 2020</span><br>Matriculation - Unique High School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 class="subtitle2">My Services</h2>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-codepen"></i>
+                        <h2>Web designs</h2>
+                        <p>Transforming ideas into captivating online experiences! With expertise in web development, I create visually stunning and functionally seamless websites. Choose innovation, choose excellence – let's elevate your digital presence together.</p>
+                       <br> <a href="https://www.linkedin.com/in/abdul-mehad-7a2458277/">learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        <h2>Copy Writing</h2>
+                        <p>
+                            Crafting compelling narratives and engaging content is my forte. Elevate your brand with my copywriting services, where every word is meticulously chosen to resonate with your audience. Choose impact, choose clarity – let's bring your brand story to life through persuasive and powerful copy.</p>
+                       <br> <a href="https://www.linkedin.com/in/abdul-mehad-7a2458277/">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="subtitle2">MY WORK</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/images7.jpeg" alt="">
+                        <div class="layer">
+                            <h3> E-Commerce Website</h3><br>
+                            <ul>
+                               <li> Built using Nuxt.js, a Vue.js-based framework for creating universal web applications.</li>
+                               
+                              <br> <li> Developed a complete and functional e-commerce website with a range of product categories, providing a seamless shopping experience.</li>
+                             
+                               <br><li>Utilized Vuex, the official state management library for Vue.js, to manage the application's state in a centralized and predictable manner.</li> 
+                            </ul><br>
+                                <a href="https://fakestoreee.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/images6.png" alt="">
+                        <div class="layer">
+                            <h3> Background Remover App</h3><br>
+                            <ul>
+                               <li> Innovated a background removal tool through full-cycle involvement, encompassing coding, debugging, and feature integration.</li>
+                               
+                              <br> <li> Enhanced project success by collaborating with diverse developers, fostering effective communication, teamwork, and resolving technical challenges collectively.</li>
+                             
+                               <br><li>Leveraged algorithms and libraries to enhance tool effectiveness by accurately identifying and removing backgrounds from diverse image types.</li> 
+                            </ul><br>
+                                <a href="https://backgroundremoverrr.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/images4.jpg" alt="">
+                        <div class="layer">
+                            <h3> Password Generator App </h3><br>
+                            <ul>
+                                <li>Developed user-friendly Password Generator app using React, JavaScript, and HTML/CSS. </li><br>
+                                <li>Implemented customizable options for password length, character types, and Number inclusion. </li>
+                                <br> 
+                                <li>Implemented error handling and validation checks for preventing invalid inputs and ensuring password strength.
+                                    effectiveness and usability.</li>
+                                <br>
+                             </ul><br>
+                                <a href="https://passwordgeneratorrrrrr.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/images5.jpg" alt="">
+                        <div class="layer">
+                            <h3>Currency Converter App</h3><br>
+                           <ul>
+                            <li> Built a React.js currency conversion app prioritizing accuracy and stability, reinforced with thorough unit testing for reliable functionality and precise currency calculations, ensuring seamless user experience. </li>
+                               <br>
+                                 <li>Integrated a live currency exchange rates API to provide up-to-date conversion rates within the application.   </li><br>
+                                <li> Designed an intuitive user interface with error handling to enhance the user experience and provide informative feedback for invalid inputs or network errors.  </li>
+                            </ul><br>
+                                <a href="https://strong-alfajores-6d0af5.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/Abdulmehad?tab=repositories&q=&type=public&language=&sort=" class="btn">See more</a> 
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="subtitle2">Contact me</h2>
+                <div class="row">
+                    <div class="contact-left"> 
+                        <p><i class="fa-solid fa-envelope"></i>abdulmehad@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+923184391935</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/mian.ahsan.73744/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/abdulmehad/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/abdulmehad"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Abdulmehad"><i class="fa-brands fa-github"></i></a>
+    
+                        </div>
+                        <a href="images/ATS.pdf" class="btn btn2">Download Resume</a>
+    
+                    </div>
+                    <div class="contact-right"> 
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+    
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="Copyright">
+            <p>Copyright © 2024 Abdul Mehad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+       </script> 
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyjSkfc1UV0-3JfvZRfKLL9RjLXvwaiUaX7s3GjYix5r2i0mFvWK-GhYmo2rhcxsxPS/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML="Message sent Sucessfullly"
+        setTimeout(function(){
+            msg.innerHTML=""},5000)
+        form.reset()} 
+            )
+            .catch(error => console.error('Error!', error.message))
+        })
+    
+      </script>
+      <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+      </script>
+    </body>
+    </html>
