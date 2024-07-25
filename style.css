@@ -270,6 +270,7 @@ nav ul li a:hover::after{
     margin: 50px auto;
     width: fit-content;
     border: 1px solid rgb(126, 20, 20);
+    background: #ff004f;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -279,6 +280,9 @@ nav ul li a:hover::after{
 }
 .btn:hover{
     background: rgb(126, 20, 20);
+}
+a:hover p {
+    color: red;
 }
 /*CONTACT*/
 .contact-left{
