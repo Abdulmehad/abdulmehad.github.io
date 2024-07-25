@@ -237,7 +237,7 @@
                         <a href="images/ATS.pdf" class="btn btn2">Download Resume</a>
                     </div>
                     <div class="contact-right"> 
-                        <form name="submit-to-google-sheet">
+                        <form class="forms" action="https://getform.io/f/bqonelrb" method="POST">
                             <input type="text" name="Name" placeholder="Your Name" required>
                             <input type="email" name="Email" placeholder="Your Email" required>
                             <textarea name="Message" cols="30" rows="6" placeholder="Your Message"></textarea>
@@ -272,7 +272,7 @@
     document.getElementById(tabname).classList.add("active-tab");
     }
        </script> 
-      <script>
+      <!-- <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbyjSkfc1UV0-3JfvZRfKLL9RjLXvwaiUaX7s3GjYix5r2i0mFvWK-GhYmo2rhcxsxPS/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg=document.getElementById("msg")
@@ -288,6 +288,18 @@
             .catch(error => console.error('Error!', error.message))
         })
     
+      </script> -->
+      <script>
+        const form = document.getElementsByClassName('forms')[0]; // Select the first form element
+ const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', function(event) {
+        // Simulate form submission delay
+        setTimeout(function() {
+            msg.innerHTML = "Form Submitted Successfully";
+            form.reset(); // Reset the form after submission
+        }, 500);
+    });
       </script>
       <script>
         var sidemenu = document.getElementById("sidemenu");
